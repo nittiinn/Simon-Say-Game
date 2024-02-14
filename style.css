@@ -1,0 +1,65 @@
+
+body {
+    text-align: center;
+    background-color: rgb(31, 30, 30);
+    color: rgba(255, 254, 254, 0.993);
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 8px solid black;
+    margin: 2.5rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.yellow {
+    background-color: #c0c009;
+    border: 8px solid rgb(209, 211, 105);
+}
+
+.red {
+    background-color: rgb(240, 12, 12);
+    border: 8px solid rgb(224, 74, 74);
+}
+
+.green {
+    background-color:rgb(6, 99, 6);
+    border: 8px solid rgb(16, 121, 16);
+
+
+}
+
+.purple {
+    background-color: rgb(131, 23, 131);
+    border: 8px solid #da10f5 ;
+}
+
+.flash{
+    background-color: white;
+}
+
+.userflash {
+    background-attachment: green;
+}
+audio{
+    display: none;
+}
+.start{
+    height: 2rem;
+    width: 6rem;
+    background-color: gray;
+    color: white;
+    border: 2px solid rgb(247, 186, 186);
+    border-radius: 10px;
+    font-size: 1.1rem;
+    box-shadow: 0px 0px 20px rgb(170, 170, 170);
+}
+.start:hover{
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
